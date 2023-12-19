@@ -24,6 +24,7 @@ body {
 
 nav {
   font-size: 18px;
+  float: right;
 }
 
 nav a:link {
@@ -63,6 +64,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  float: left;
 }
 
 h1::first-letter {
@@ -183,4 +185,15 @@ button.like {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/* floats */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
 }
