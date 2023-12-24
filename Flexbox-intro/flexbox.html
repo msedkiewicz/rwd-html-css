@@ -43,8 +43,19 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        gap: 30px;
       }
 
+      .el {
+        /* flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        flex: 0 1 auto;*/
+
+        /* flex-basis: 100px min width of container - if there is more content it extends */
+        /* flex-shrink: 0; determine if flexbox is allowed to shrink elements( x > 0) or not (x = 0) */
+        /* flex-grow: 2; how much of an empty space left can be taken by an element */
+      }
       .el--1 {
         align-self: flex-start;
         order: 2;
