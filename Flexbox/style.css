@@ -29,7 +29,7 @@ nav {
 
 nav a:link {
   display: inline-block;
-  margin: 10px 30px 0 0;
+  margin-right: 30px;
 }
 
 nav a:link:last-child {
@@ -185,4 +185,11 @@ button.like {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/* Flexbox */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
