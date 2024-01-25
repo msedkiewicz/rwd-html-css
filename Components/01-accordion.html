@@ -26,6 +26,13 @@
         margin: 100px auto;
       }
       .item {
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+        padding: 24px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 24px;
+        row-gap: 32px;
+        align-items: center;
       }
       .number,
       .text {
@@ -41,6 +48,7 @@
         stroke: #087f5b;
       }
       .hidden-box {
+        grid-column: 2;
       }
       .hidden-box p {
         line-height: 1.6;
