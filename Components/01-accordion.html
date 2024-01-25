@@ -41,7 +41,6 @@
       .text {
         font-size: 24px;
         font-weight: 500;
-        /* color: #087f5b; */
       }
       .number {
         color: #ced4da;
@@ -65,6 +64,17 @@
         display: flex;
         flex-direction: column;
         gap: 12px;
+      }
+
+      .open {
+        border-top: 4px solid #087f5b;
+      }
+      .open .hidden-box {
+        display: block;
+      }
+      .open .number,
+      .open .text {
+        color: #087f5b;
       }
     </style>
   </head>
