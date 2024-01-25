@@ -24,6 +24,9 @@
       .accordion {
         width: 700px;
         margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
       }
       .item {
         box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
@@ -38,9 +41,10 @@
       .text {
         font-size: 24px;
         font-weight: 500;
-        color: #087f5b;
+        /* color: #087f5b; */
       }
-      .text {
+      .number {
+        color: #ced4da;
       }
       .icon {
         width: 24px;
@@ -49,6 +53,7 @@
       }
       .hidden-box {
         grid-column: 2;
+        display: none;
       }
       .hidden-box p {
         line-height: 1.6;
